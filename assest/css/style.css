@@ -204,7 +204,7 @@ header #topbar .rightgroup ul #logfa{
     font-size: 22px;
     padding: 10px 20px 30px;
 }
-#Lsection h3:before {
+/* #Lsection h3:before {
     content: url(/assest/img/quotation-left.png);
     padding-right: 12px;
     position: relative;
@@ -215,6 +215,16 @@ header #topbar .rightgroup ul #logfa{
     padding-left: 12px;
     position: relative;
     top: 9px;
+} */
+#Lsection h3 .quote-left{
+    padding-right: 10px;
+    bottom: 7px;
+    position: relative;
+}
+#Lsection h3 .quote-right{
+    padding-left: 8px;
+    top: 7px;
+    position: relative;
 }
 /* Lefted section End */
 /* individual Corporation Section Start */
@@ -345,7 +355,6 @@ div#split .column-title {
 /* Client Satisfaction Section End */
 /* figures Section Start */
 .figures{
-    background: url(/assest/img/removals_bg.jpg);
     background-size: cover !important;
     width: 1600px;
     max-width: 100%;
