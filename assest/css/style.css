@@ -205,16 +205,16 @@ header #topbar .rightgroup ul #logfa{
     padding: 10px 20px 30px;
 }
 #Lsection h3:before {
+    content: url(/assest/img/quotation-left.png);
     padding-right: 12px;
     position: relative;
     bottom: 5px;
-    content: url(/assest/img/quotation-left.png);
 }
 #Lsection h3:after {
+    content: url(/assest/img/quotation-right.png);
     padding-left: 12px;
     position: relative;
     top: 9px;
-    content: url(/assest/img/quotation-right.png);
 }
 /* Lefted section End */
 /* individual Corporation Section Start */
