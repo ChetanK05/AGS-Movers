@@ -32,6 +32,12 @@ a{
         margin-left: 0px !;
     }
   }
+  /* @media screen and (min-width:768px) {
+    .col-md-12{
+        margin-top: 25px;
+    }
+   
+  }*/
   @media screen and (max-width:768px) {
     .topheight{
       height: 60px !important;
@@ -44,6 +50,9 @@ a{
     }
     .dropdown {
         margin-left: 0px !;
+    }
+    .col-md-12{
+        margin-top: 25px;
     }
   }
   @media screen and (max-width:576px) {
@@ -58,6 +67,9 @@ a{
     }
     .topbar{
       padding: 0px;
+    }
+    .col-sm-12{
+        margin-top: 25px;
     }
   }
   .topheight{
@@ -168,6 +180,7 @@ a{
         padding: 7px 17px !important;
         font-size: 12px !important;
     }
+   
     
 }
 @media screen and (min-width:992){
@@ -186,6 +199,9 @@ a{
     }
     #btnquote{
         margin-top: 15px !important;
+    }
+    .clientsatisfaction{
+        width: 100% !important;
     }
 }
 @media screen and (max-width:992px) {
@@ -501,6 +517,11 @@ div#split .column-title {
 }
 /* Domestic Section End */
 /* Client Satisfaction Section Start */
+@media screen and (min-with:768px){
+    .clientsatisfaction .col-md-12{
+        padding-left: 50px !important;
+    }
+}
 .clientsatisfaction h2{
     font-size: 34px;
     font-weight: 600;
@@ -518,16 +539,7 @@ div#split .column-title {
 .clientsatisfaction a{
     color: #B00000;
 }
-.clientsatisfaction .clo-lg-6{
-    margin-left: 50px !important;
-}
-@media (min-width: 992px){
-    .clientsatisfaction .col-md-6 {
-        flex: 0 0 auto;
-        width: 40%;
-        margin-left: 110px;
-    }
-}
+
 /* Client Satisfaction Section End */
 /* figures Section Start */
 .figures{
