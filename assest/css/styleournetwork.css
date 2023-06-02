@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.networkimg{
+    background-size: cover !important;
+    width: 1600px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto
+}
+.country h5{
+    color: #B00000;
+    font-weight: 600;
+}
+.country .contryname ul li{
+    font-size: 16px;
+}
+.country .contryname ul li a{
+  color: #292b2c;
+}
+.country .contryname ul li a:hover{
+    color: #B00000;
+}
+.Bcrumb{
+    z-index: 10;
+    margin-top: -100px;
+    margin-left: 65%;
+}
+#Bitem{
+    color: #B00000;
+    font-weight: 600;
+}
+.Bcrumb .breadcrumb-item a{
+    color: #B00000;
+}
+@media screen and (max-width:992px){
+    .Bcrumb{
+        margin-left: 55%;
+    }
+}
+@media screen and (max-width:768px){
+    .Bcrumb{
+        margin-left: 50%;
+    }
+}
