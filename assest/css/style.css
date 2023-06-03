@@ -141,22 +141,6 @@ a{
   .dropdown-item span{
     font-size: 12px;
   }
-  /* @media screen and (min-width:993px) {
-    .dropdown .dropdown-menu.show{
-        display: none !important;
-        
-    }
-    .dropdown:hover .dropdown-menu
-    {
-        display: block !important;
-        
-    }
-    .dropdown:focus .dropdown-menu
-    {
-        display: block !important;
-        
-    }     
-  } */
   /* Topbar dropdown section end */
   .parallelogram {
     width: 160px;
