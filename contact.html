@@ -255,17 +255,20 @@
               <a class="nav-link" href="our network.html">OUR NETWORK</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">NEWS</a>
+              <a class="nav-link" href="news.html">NEWS</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT</a>
             </li>
-            <li class="nav-item dropdown" id="navcontact">
-              <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="contact">
-                CONTACT
+            <!-- <li class="nav-item dropdown" id="navcontact">
+              <a class="nav-link" href="contact.html" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="contact">
+                 CONTACT
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">General enquiries</a></li>
                 <li><a class="dropdown-item" href="#">Your satisfaction</a></li>
               </ul>
-            </li>
+            </li> -->
           </ul>
           <button id="btnquote" type="button" class="btn "><i class="fa-regular fa-pen-to-square"></i>&nbsp;GET A
             QUOTE</button>
@@ -279,7 +282,7 @@
     <div class="networkimg">
         <div class="row">
             <div class="col-12 col-lg-12 col-md-12 col-sm-12">
-                <img src="./assest/img/News_1600X500-7-1-1.jpg" class="d-block img-fluid" width="1600px" alt="">               
+                <img src="./assest/img/tw-ladies-our-mission.jpg" class="d-block img-fluid" width="1600px" alt="">               
             </div>
         </div>
     </div>
@@ -287,71 +290,114 @@
    <!-- Lifted Section Start -->
    <div class="container" id="Lsection">
     <div class="row">
-      <div class="col-md-10 interbox d-block mx-auto text-center">
-        <h1 class="pt-5 pb-2">NEWS</h1>
-        <h5>
-          <span>Everything AGS: events, moving tips and advice, projects, the success of our teams worldwide,
-            network news, etc.</span>
+      <div class="col-md-10 col-sm-12 interbox d-block mx-auto text-center">
+        <h1 class="pt-5 pb-2">GENERAL ENQUIRIES</h1>
+        <h5 class="col-md-5 col-sm-5 mx-auto">
+          <span>Please complete the form below to contact us. <br>
+            An AGS expert will get in touch with you shortly.</span>
           </h5>
+          <hr>
       </div>
+      <form action="" method="post">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 mx-auto">
+                    <div class="form p-4">
+                    <h4 class="fs-5">Would you like a quotation?</h4>
+                    <p>Please provide more details of your move by <a href="" rel="noopener" target="_blank">clicking here</a>.</p>
+                    <div class="mb-3 mt-5">
+                        <h4>YOUR DETAILS</h4>
+                        <div class="row">
+                          <div class="col-6 col-lg-4 col-md-6 col-sm-12">
+                            <input type="text" class="form-control" id="yname" placeholder="First Name">
+                          </div>
+                          <div class="col-6 col-lg-4 col-md-6 col-sm-12">
+                            <input type="text" class="form-control" id="sname" placeholder="Your Surname">
+                          </div>
+                        </div>
+                        <div class="row mt-3">
+                          <div class="col-6 col-lg-4 col-md-6 col-sm-12">                           
+                            <input type="email" class="form-control" id="email" placeholder="E-mail">                            
+                          </div>
+                          <div class="col-6 col-lg-4 col-md-6 col-sm-12">
+                            <input type="tel" class="form-control" id="tel" placeholder="Phone">
+                          </div>
+                        </div>                        
+                    </div>        
+                    <div class="col-6 col-lg-4 col-md-6 col-sm-12 mb-3 mt-4">
+                      <h4>Select a location</h4>
+                    <div>
+                      <select name="departure_country" class="requiredField" id="departure_country">
+                          <option value="">Select a location</option>
+                          <option data-id="1" value="AF">Afghanistan</option>
+                          <option data-id="2" value="AL">Albania</option>
+                          <option data-id="3" value="DZ">Algeria</option>
+                          <option data-id="4" value="AS">American Samoa</option>
+                          <option data-id="5" value="AD">Andorra</option>
+                          <option data-id="6" value="AO">Angola</option>
+                          <option data-id="7" value="AI">Anguilla</option>
+                          <option data-id="9" value="AG">Antigua and Barbuda</option>
+                          <option data-id="10" value="AR">Argentina</option>
+                          <option data-id="11" value="AM">Armenia</option>
+                          <option data-id="12" value="AW">Aruba</option>
+                          <option data-id="13" value="AU">Australia</option>
+                          <option data-id="14" value="AT">Austria</option>
+                          <option data-id="15" value="AZ">Azerbaijan</option>
+                          <option data-id="249" value="ZO">Azores</option>
+                          <option data-id="16" value="BS">Bahamas</option>
+                          <option data-id="17" value="BH">Bahrain</option>
+                          <option data-id="18" value="BD">Bangladesh</option>
+                          <option data-id="19" value="BB">Barbados</option>
+                          <option data-id="20" value="BY">Belarus</option>
+                          <option data-id="21" value="BE">Belgium</option>
+                          <option data-id="22" value="BZ">Belize</option>
+                          <option data-id="23" value="BJ">Benin</option>
+                          <option data-id="24" value="BM">Bermuda</option>
+                          <option data-id="25" value="BT">Bhutan</option>
+                          <option data-id="26" value="BO">Bolivia</option>
+                          <option data-id="260" value="BQ">Bonaire</option>
+                          <option data-id="27" value="BA">Bosnia and Herzegovina</option>
+                          <option data-id="28" value="BW">Botswana</option>              
+                          <option data-id="29" value="BV">Bouvet Island</option>
+                          <option data-id="30" value="BR">Brazil</option>
+                          <option data-id="31" value="IO">British Indian Ocean Territory</option>
+                      </select>
+                  </div><br>
+                
+                    </div>
+                    <div class="row">
+                      <div class="col-6 col-lg-4 col-md-6 col-sm-12 mb-3">
+                        <h4>Your Message</h4>
+                          <input type="text" class="form-control" id="subject" placeholder="message">
+                      </div>
+                    </div>
+                        <div class="mb-4 col-md-8 mb-4">
+                          <textarea name="ms" id="message" class="form-control" style="height: 200px;" placeholder="message"></textarea>
+                        </div>
+                        <div class="form-check mb-2">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                            I would like to receive AGS newsletters and notices.
+                          </label>
+                        </div>
+                        <div class="form-check mb-4">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                          <label class="form-check-label" for="flexCheckChecked">
+                            I have read and I accept the <a href=""> GDPR privacy policy</a> for the site.
+                          </label>
+                        </div>
+                          <button type="submit" class="btn btn1 rounded-0 fw-bold">SEND</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </form>
     </div>
   </div>
   <!-- Lifted Section End -->
   <!-- card news section start -->
-    <div class="container newscard">
-      <div class="row">
-        <div class="col-4 cardpadding">
-          <div class="cardmargin shadow">
-            <div class="card" style="width: 18rem;">
-              <img width="300" height="174" src="./assest/img/moving-to-oman-1.jpg" class="card-img-top" alt="...">
-              <time class="post-date">
-                <span class="day">26</span>
-                <span class="month">May</span>
-              </time>
-              <div class="card-body">
-                <h4 class="cards-title"><a href="">Moving to Oman from the UK: A Comprehensive Guide for Expats</a></h4>
-                <p> Moving to Oman from the UK can be an exciting and enriching experience, 
-                    but to get the most out of your time in the Sultanate, 
-                    it’s important to be well-prepared. In this guide, we explore the key aspects of relocating to Oman, 
-                    including visa requirements, employment opportunities, the cost of living, international schools, and culture. 
-                    <a href="">[...] Read more</a><a></a></p>
-                    <p class="post-categ"><a> Posted in: </a>
-                    <a href="" rel="category tag">Corporate News</a>, 
-                    <a href="" rel="category tag">Helpful Resource France</a><br>Tag(s): <a href="" rel="tag">France</a>, 
-                    <a href="" rel="tag">London</a>, 
-                    <a href="" rel="tag">Oman</a>, 
-                    <a href="" rel="tag">Paris</a>, 
-                    <a href="" rel="tag">UK</a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-4 cardpadding">
-          <div class="cardmargin shadow">
-            <div class="card " style="width: 18rem;">
-              <img width="300" height="174" src="./assest/img/african-masks-representing-cameroons-culture-300x174.jpg" class="card-img-top" alt="...">
-              <time class="post-date">
-                <span class="day">26</span>
-                <span class="month">May</span>
-              </time>
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-4 cardpadding">
-          <div class="cardmargin shadow">
-            <div class="card" style="width: 18rem;">
-              <img width="300" height="174" src="./assest/img/demenager-en-suisse-300x174.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+ 
   <!-- card news section End -->
     <!-- Footer Section Start -->
   <footer class="mt-4">

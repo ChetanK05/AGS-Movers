@@ -149,4 +149,49 @@ a{
     font-weight: 600;
     text-decoration: none;
 }
+.card-body p
+{
+    color: #292b2c;
+}
 /* news section end*/
+/* contact section start */
+form .h4{
+    font-size: 17px;
+    font-weight: 600;
+}
+.form-control{
+    background-color: #f2f2f2;
+}
+form .btn1{
+    background-color: #B00000;
+    border-radius: 0px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    width: 150px;
+}
+form .btn1:hover{
+    background-color: #B00000;
+    border-radius: 0px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    width: 150px;
+}
+form a{
+    color: #B00000;
+}
+select{
+    color: #666666;
+    border:1px solid #ced4da;
+    border-radius: 5px;
+    text-align: justify;
+    vertical-align: middle;
+    background-color: #f2f2f2;
+    width: 325px;
+    height: 40px;
+    padding-left: 10px;
+}
+/* contact section end */
