@@ -86,10 +86,10 @@
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="index.html">HOME</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="">CHOOSING AGS</a>
+            <li class="nav-item" id="megadropdown">
+              <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" onclick="toggleHide()" id="megabtn" >CHOOSING AGS</a>
               <!-- Megadropdown section start -->
-              <div class="megadropdown bg-dark">
+              <div class="megadropdown bg-dark" id="megamenu">
                 <div class="container">
                   <div class="row pt-5">
                     <div class="col-lg-11 mx-auto">
@@ -258,16 +258,17 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact.html">CONTACT</a>
+              <div class="contactdrop bg-dark">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12 col-lg-12 col-md-12 col-sm-12 mt-2"><a href="">General enquiries</a></div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 col-lg-12 col-md-12 col-sm-12 mt-2"><a href="">Your satisfaction</a></div>
+                  </div>
+                </div>
+              </div>
             </li>
-            <!-- <li class="nav-item dropdown" id="navcontact">
-              <a class="nav-link" href="contact.html" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="contact">
-                CONTACT
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">General enquiries</a></li>
-                <li><a class="dropdown-item" href="#">Your satisfaction</a></li>
-              </ul>
-            </li> -->
           </ul>
           <button id="btnquote" type="button" class="btn "><i class="fa-regular fa-pen-to-square"></i>&nbsp;GET A
             QUOTE</button>
