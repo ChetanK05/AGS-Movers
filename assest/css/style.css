@@ -245,8 +245,8 @@ a{
     height: 518px !important;
 
 }
-.nav-item:hover .megadropdown{
-    display: block;
+.nav-item .megadropdown{
+    display: none;
     margin-top: 25px;
     position: absolute;
     left: 0px;
