@@ -1,6 +1,7 @@
 $(function(){
     $('.selectpicker').selectpicker();
 });
+// megamenu active on click section start//
 function megamenu(){
     let megamenu = document.getElementById('megamenu');
     if(megamenu.style.display == 'none'){
@@ -19,3 +20,4 @@ function megamenu2(){
         megamenu.style.display = 'none';
     }
 }
+// megamenu active on click section end//

@@ -19,7 +19,8 @@ a{
       }
       .dropdown {
         margin-left: 0px !important;
-      }        
+      } 
+            
   }
   @media screen and (min-width:992px) {
     .topheight{
@@ -31,16 +32,16 @@ a{
     .dropdown {
         margin-left: 0px !;
     }
+    
   }
-  /* @media screen and (min-width:768px) {
-    .col-md-12{
-        margin-top: 25px;
-    }
-   
-  }*/
+  @media screen and (min-width:768px) {
+    
+    
+  }
   @media screen and (max-width:768px) {
     .topheight{
       height: 60px !important;
+      display: none;
     }
     .leftgroup ul li a{
       font-size: 12px !important;
@@ -55,6 +56,9 @@ a{
         padding-top: 4px;
     }
   }
+  @media screen and (min-width:576px) {
+    
+  }
   @media screen and (max-width:576px) {
     .topheight{
       height: 45px !important;
@@ -68,7 +72,7 @@ a{
     }
     .topbar{
       padding: 0px;
-    }
+    } 
     
   }
   .topheight{
@@ -202,13 +206,18 @@ a{
     #btnquote{
         margin-top: 15px !important;
     }
+    .slidersection .img1{
+        overflow: hidden;
+    }  
 }
 @media screen and (max-width:768px) {
     .navbar .container .navbar-brand .logo{
         width: 185px !important;
         height: auto !important;
     }  
-     
+    .slidersection .img1{
+        overflow: hidden;
+    }     
 }
 #navcontainer .logo{
     margin-left: 20px;
@@ -301,41 +310,18 @@ a{
 }
 /* megadropdown section end */
 /* Slider Section Start */
-/* new data start */
-.slidersection .img1{
-    position: relative;
-    z-index: 2;
+#carouselExampleInterval{
+    background-size: cover !important;
+    width: 1600px;
     overflow: hidden;
-    
-}
-.slidersection .img2{
-    position: absolute;
-    z-index: 3; 
-    overflow: hidden;
-    text-align: end;
+    margin-left: auto;
+    margin-right: auto;
     height: 470px;
-    padding: 0px;
-    margin: 0px;
-    width: 1750px;             
-} 
-/* new data end */
-#carouselExampleFade{
-    background-size: cover !important;
-    width: 1600px;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto
 }
-/* old... #carouselExampleDark{
-    background-size: cover !important;
-    width: 1600px;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto
-} */
 .carousel-inner .carousel-item{
     height: 470px !important;
-    width: 1130px;
+    width: 1600px;
+    overflow: hidden;
 }
 
 @keyframes zoomin{
@@ -406,12 +392,7 @@ a{
 }
 /* Lefted section End */
 /* individual Corporation Section Start */
-@media (min-width: 992px){
-.col-lg-6 {
-    flex: 0 0 auto;
-    width: 50%;
-}
-}
+
 #split{
     padding: 5px 40px 40px 40px;
 }
@@ -457,7 +438,7 @@ div#split .column-title {
     text-align: center;
     font-size: 14px;
     font-weight: 600;
-    padding: 8px 30px;
+    padding: 8px 25px;
     text-decoration: none;
 }
 #split .splitbtn1:hover{
@@ -475,8 +456,7 @@ div#split .column-title {
     font-size: 14px;
     font-weight: 600;
     text-decoration: none;
-    padding: 8px 30px;
-    margin-left: 20px;
+    padding: 8px 25px;
 }
 /* individual Corporation Section End */
 /* Domestic Section Start */
@@ -569,16 +549,16 @@ div#split .column-title {
     color: #B00000;
     margin: 0px 0px 15px;
 }
-.world p{
+/* .world p{
     text-align: justify;
-    padding: 0px 200px 0px 220px;
-}
+    padding: 0px 200px 0px 200px;
+} */
 .world p a{
     color: #B00000;
 }
-.world .button{
-    padding-left: 35%;
-}
+/* .world .button{
+    padding-left: 32%;
+} */
 .world .splitbtn1{
     border: 2px solid #B00000;
     border-radius: 0px;
@@ -673,16 +653,32 @@ footer p a:hover{
     margin-top: 3px;
 }
 .fs-6{
-    margin-left: 100px;
-    margin-top: 3px;
 }
 @media screen and (max-width:768px)
     {
         .fs-6{
-            margin-left: 43px;
-            margin-top: -15px;
+            
+            text-align: center;
+        }
+        .world .button .btn{
+            margin-bottom: 10px;
+           
+        }
+        .split .btn{
+            margin-bottom: 10px;
+            
         }
     }
+@media screen and (max-width:992px){
+    .fs-6{
+       text-align: center;
+    }
+}
+@media screen and (min-width:992px){
+    .fs-6{
+       text-align: center;
+    }
+}
 /* Footer Section End */
 /* contact drop start */
 .contactdrop{
