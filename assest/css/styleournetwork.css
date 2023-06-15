@@ -50,7 +50,7 @@ a{
 }
 /* news section start */
 .newscard .row{
-    margin: 0px 122px; 
+    margin: 0px 100px; 
 }
 .card{
     border-radius: 0px;
@@ -63,6 +63,7 @@ a{
     padding: 12px;
     margin: 0px auto 10px auto;
     height: 502px;
+    width: 314px;
 }
 .cardpadding{
     padding: 0px 18px !important;
@@ -199,3 +200,8 @@ select{
     margin-top: 75px;
 } 
 /* contact section end */
+@media screen and (max-width:576px){
+    .newscard .row{
+        margin: 0px 0px !important; 
+    }
+}

@@ -7,74 +7,7 @@ a{
     text-decoration: none;
 }
 /* TOP bar section strat */
-@media screen and (min-width:1200px) {
-    .topheight{
-      height: 30px !important;
-    }
-    .leftgroup ul li a{
-        font-size: 12px !important;
-      }
-      .rightgroup ul li a{
-        font-size: 12px;
-      }
-      .dropdown {
-        margin-left: 0px !important;
-      } 
-            
-  }
-  @media screen and (min-width:992px) {
-    .topheight{
-      height: 30px !important;
-    }
-    header .topbar .rightgroup{
-      float: right;
-    }
-    .dropdown {
-        margin-left: 0px !;
-    }
-    
-  }
-  @media screen and (min-width:768px) {
-    
-    
-  }
-  @media screen and (max-width:768px) {
-    .topheight{
-      height: 60px !important;
-      display: none;
-    }
-    .leftgroup ul li a{
-      font-size: 12px !important;
-    }
-    .rightgroup ul li a{
-      font-size: 12px !important;
-    }
-    .dropdown {
-        margin-left: 0px !;
-    }
-    .col-md-12{
-        padding-top: 4px;
-    }
-  }
-  @media screen and (min-width:576px) {
-    
-  }
-  @media screen and (max-width:576px) {
-    .topheight{
-      height: 45px !important;
-      
-    }
-    .leftgroup ul li a{
-      font-size: 12px !;
-    }
-    .rightgroup ul li a{
-      font-size: 12px !important;
-    }
-    .topbar{
-      padding: 0px;
-    } 
-    
-  }
+
   .topheight{
     padding-top: 0px !important;
   }
@@ -310,19 +243,35 @@ a{
 }
 /* megadropdown section end */
 /* Slider Section Start */
-#carouselExampleInterval{
+/* new data start */
+.slidersection .img1{
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    
+}
+.slidersection .img2{
+    position: absolute;
+    z-index: 3; 
+    overflow: hidden;
+    text-align: end;
+    height: 470px;
+    padding: 0px;
+    margin: 0px;
+    width: 1750px;             
+} 
+/* new data end */
+/* #carouselExampleFade{
     background-size: cover !important;
     width: 1600px;
-    overflow: hidden;
     margin-left: auto;
     margin-right: auto;
     height: 470px;
 }
 .carousel-inner .carousel-item{
     height: 470px !important;
-    width: 1600px;
-    overflow: hidden;
-}
+    width: 1130px;
+} */
 
 @keyframes zoomin{
     from{
@@ -549,16 +498,14 @@ div#split .column-title {
     color: #B00000;
     margin: 0px 0px 15px;
 }
-/* .world p{
+.world p{
     text-align: justify;
-    padding: 0px 200px 0px 200px;
-} */
+}
+
 .world p a{
     color: #B00000;
 }
-/* .world .button{
-    padding-left: 32%;
-} */
+
 .world .splitbtn1{
     border: 2px solid #B00000;
     border-radius: 0px;
@@ -652,33 +599,8 @@ footer p a:hover{
     margin-right: 100px;
     margin-top: 3px;
 }
-.fs-6{
-}
-@media screen and (max-width:768px)
-    {
-        .fs-6{
-            
-            text-align: center;
-        }
-        .world .button .btn{
-            margin-bottom: 10px;
-           
-        }
-        .split .btn{
-            margin-bottom: 10px;
-            
-        }
-    }
-@media screen and (max-width:992px){
-    .fs-6{
-       text-align: center;
-    }
-}
-@media screen and (min-width:992px){
-    .fs-6{
-       text-align: center;
-    }
-}
+
+
 /* Footer Section End */
 /* contact drop start */
 .contactdrop{
@@ -699,3 +621,207 @@ footer p a:hover{
     color: #fff;
 }
 /* contact drop end */
+/* Media Query Section Start */
+@media screen and (min-width:1200px) {
+    .topheight{
+      height: 30px !important;
+    }
+    .leftgroup ul li a{
+        font-size: 12px !important;
+      }
+      .rightgroup ul li a{
+        font-size: 12px;
+      }
+      .dropdown {
+        margin-left: 0px !important;
+      }
+      #carouselExampleFade{
+        background-size: cover !important;
+        width: 1600px !important;
+        margin-left: auto;
+        margin-right: auto;
+        height: 470px !important;
+        overflow: hidden;
+    }
+    .carousel-inner .carousel-item{
+        height: 470px !important;
+        width: 1130px !important;
+        overflow: hidden;
+    }
+    .slidersection .img2{
+        position: absolute;
+        z-index: 3; 
+        overflow: hidden;
+        text-align: end;
+        height: 470px !important;
+        padding: 0px;
+        margin: 0px;
+        width: 1750px !important;             
+    } 
+            
+  }
+  @media screen and (max-width:992px){
+    .fs-6{
+       text-align: center;
+    }
+    .megadropdown #choose-right2{
+        display: none;
+    }
+  }
+  @media screen and (min-width:992px) {
+    .topheight{
+      height: 30px !important;
+    }
+    header .topbar .rightgroup{
+      float: right;
+    }
+    .dropdown {
+        margin-left: 0px !;
+    }
+    #carouselExampleFade{
+        background-size: cover !important;
+        width: 1600px !important;
+        margin-left: auto;
+        margin-right: auto;
+        height: 470px !important;
+        overflow: hidden;
+    }
+    .carousel-inner .carousel-item{
+        height: 470px !important;
+        width: 1130px !important;
+        overflow: hidden;
+    }
+    .slidersection .img2{
+        position: absolute;
+        z-index: 3; 
+        overflow: hidden;
+        text-align: end;
+        height: 470px !important;
+        padding: 0px;
+        margin: 0px;
+        width: 1750px !important;             
+    }
+    .fs-6{
+        text-align: center;
+     }
+  }
+  @media screen and (min-width:769px){
+    #carouselExampleFade{
+        background-size: cover !important;
+        width: 1600px !important;
+        margin-left: auto;
+        margin-right: auto;
+        height: 470px !important;
+        overflow: hidden;
+    }
+    .carousel-inner .carousel-item{
+        height: 470px !important;
+        width: 1130px !important;
+        overflow: hidden;
+    }
+    .slidersection .img2{
+        position: absolute;
+        z-index: 3; 
+        overflow: hidden;
+        text-align: end;
+        height: 470px !important;
+        padding: 0px;
+        margin: 0px;
+        width: 1750px !important;             
+    }
+    
+  }
+  @media screen and (max-width:768px) {
+    .topheight{
+      height: 60px !important;
+      display: none;
+    }
+    .leftgroup ul li a{
+      font-size: 12px !important;
+    }
+    .rightgroup ul li a{
+      font-size: 12px !important;
+    }
+    .dropdown {
+        margin-left: 0px !;
+    }
+    .col-md-12{
+        padding-top: 4px;
+    }
+    #carouselExampleFade{
+        background-size: cover !important;
+        width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 370px;
+        overflow: hidden;
+    }
+    .carousel-inner .carousel-item{
+        height: 470px !important;
+        width: 870px;
+        overflow: hidden;
+    }
+    .slidersection .img2{
+        position: absolute;
+        z-index: 3; 
+        overflow: hidden;
+        text-align: end;
+        height: 370px !important;
+        padding: 0px;
+        margin: 0px;
+        width: 900px !important;             
+    }
+    .fs-6{
+            
+        text-align: center;
+    }
+    .world .button .btn{
+        margin-bottom: 10px;
+       
+    }
+    .split .btn{
+        margin-bottom: 10px;
+        
+    }
+    .megadropdown #choose-right{
+        display: none;
+    }
+  }
+  @media screen and (max-width:576px) {
+    .topheight{
+      height: 45px !important;
+      
+    }
+    .leftgroup ul li a{
+      font-size: 12px !;
+    }
+    .rightgroup ul li a{
+      font-size: 12px !important;
+    }
+    .topbar{
+      padding: 0px;
+    } 
+    #carouselExampleFade{
+        background-size: cover !important;
+        width: 576px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 250px;
+    }
+    .carousel-inner .carousel-item{
+        height: 470px !important;
+        width: 576px;
+        overflow: hidden;
+    }
+    .slidersection .img2{
+        position: absolute;
+        z-index: 3; 
+        overflow: hidden;
+        text-align: end;
+        height: 270px !important;
+        padding: 0px;
+        margin: 0px;
+        width: 576px !important;             
+    }
+  }
+/* Media Query Section End */
